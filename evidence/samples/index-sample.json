@@ -1,0 +1,11 @@
+{
+  "geometry_version": "v0",
+  "geometry_quality": "draft-waypoints",
+  "radius_m": 2000,
+  "entries": [
+    {"evse_uid": "SAMPLE-1", "lat": 40.781, "lon": 29.47, "max_power_kw": 180, "power_type": "DC", "source": "hub_feed", "families": ["M"], "k1_evidence": true},
+    {"evse_uid": "SAMPLE-2", "lat": 37.75, "lon": 27.42, "max_power_kw": 120, "power_type": "DC", "source": "ocpi_feed", "families": ["M", "A2"], "k1_evidence": true},
+    {"evse_uid": "SAMPLE-3", "lat": 38.61, "lon": 27.43, "max_power_kw": 22, "power_type": "AC", "source": "ocpi_feed", "families": ["M"], "k1_evidence": true},
+    {"evse_uid": "SAMPLE-4", "lat": 37.04, "lon": 27.43, "max_power_kw": 400, "power_type": "DC", "source": "user_listed", "families": ["A4"], "k1_evidence": false}
+  ]
+}

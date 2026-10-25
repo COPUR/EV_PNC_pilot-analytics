@@ -1,0 +1,7 @@
+evse_uid,channel,status,hub,evidence_ref,evidence_date
+SAMPLE-1,HUB,confirmed,HUBJECT,sample-hubject-listing,2026-11-02
+SAMPLE-2,BILATERAL_OCPI,confirmed,,sample-cpo-agreement,2026-11-03
+SAMPLE-2,GUEST,confirmed,,sample-adhoc-test,2026-11-03
+SAMPLE-3,BILATERAL_OCPI,offered,,sample-cpo-offer,2026-11-01
+SAMPLE-4,BILATERAL_OCPI,confirmed,,sample-claim,2026-11-01
+SAMPLE-9,GUEST,confirmed,,sample-orphan,2026-11-01
