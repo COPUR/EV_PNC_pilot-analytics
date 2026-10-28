@@ -1,0 +1,24 @@
+[project]
+name = "ev-pnc-pilot-analytics"
+version = "0.1.0"
+description = "Corridor pilot measurement: K1 evidence count and KPI jobs"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+k1-count = "pilot_analytics.evidence.k1_count:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pilot_analytics"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
